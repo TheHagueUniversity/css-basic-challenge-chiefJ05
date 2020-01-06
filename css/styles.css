@@ -25,7 +25,7 @@ html {
 }
 
 body {
-  color: #548687;
+  color: #343434;
   margin: 0;
   padding: 0;
   font-family: 'Lato', sans-serif;
@@ -115,10 +115,53 @@ header {
 /* Work Experience
 ------------------------------------*/
 .work-experience {
-  background: #A1C6D7;
+  background: #EBBAB9;
+}
+.work-experience a {
+  color: #548687;
+}
+.work-experience .btn {
+  color: #6DA34D;
+  background: #548687;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.work-experience .btn:hover {
+  background: rgba(47, 48, 97, 80%);
+}
+.work-experience-item {
+  overflow: hidden;
+}
+.work-experience-item h3 {
+  margin-top: 0;
 }
 
 
+/* Home page button
+------------------------------------*/
+
+
+.index a {
+  color: #548687;
+}
+.index .btn {
+  color: #6DA34D;
+  background: #548687;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.index .btn:hover {
+  background: rgba(47, 48, 97, 80%);
+}
+.index-item {
+  overflow: hidden;
+}
+.index-item h3 {
+  margin-top: 0;
 
 /* Education
 ------------------------------------*/
